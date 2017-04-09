@@ -1,4 +1,4 @@
-FROM davidchiu/tensorflow09:gpu-jupyter
+FROM jupyterhub/singleuser:latest
 
 RUN sudo apt-get update
 RUN sudo apt-get install htop
