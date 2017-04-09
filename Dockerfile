@@ -1,6 +1,6 @@
-FROM everware/base:latest
+FROM yandex/rep:0.6.6_py3
 
-# RUN sudo apt-get update
-# RUN sudo apt-get install htop
-RUN conda install --yes numpy scipy scikit-learn matplotlib pandas seaborn keras
-# RUN conda install -n python3 seaborn keras
+RUN sudo apt-get update
+RUN sudo apt-get upgrade -y
+RUN sudo apt-get install htop
+RUN sudo conda install --yes notebook seaborn keras
