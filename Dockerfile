@@ -1,4 +1,4 @@
-FROM everware/science-python
+FROM everware/base:latest
 
 # RUN sudo apt-get update
 # RUN sudo apt-get install htop
