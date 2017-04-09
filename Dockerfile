@@ -1,4 +1,4 @@
-FROM jupyterhub/singleuser:latest
+FROM jupyter/scipy-notebook:latest
 
 RUN sudo apt-get update
 RUN sudo apt-get install htop
