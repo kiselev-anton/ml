@@ -1,6 +1,5 @@
 FROM yandex/rep:0.6.6_py3
 
-RUN /root/miniconda/envs/rep_py3/bin/conda install python=3.5.3 -q --yes
 RUN /root/miniconda/envs/rep_py3/bin/conda install keras seaborn -q --yes
 RUN /root/miniconda/envs/rep_py3/bin/conda install notebook=5.0.0 -q --yes
 
