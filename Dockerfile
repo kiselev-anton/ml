@@ -1,4 +1,4 @@
-FROM yandex/rep:0.6.6
+FROM davidchiu/tensorflow09:gpu-jupyter
 
 RUN sudo apt-get update
 RUN sudo apt-get install htop
