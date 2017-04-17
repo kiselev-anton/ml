@@ -1,4 +1,4 @@
-FROM yandex/rep:0.6.6_py3
+FROM yandex/rep:0.6.6
 
 RUN /root/miniconda/envs/rep_py3/bin/conda install seaborn -q --yes
 #RUN /root/miniconda/envs/rep_py3/bin/conda install notebook=5.0.0 -q --yes
