@@ -1,5 +1,5 @@
 #FROM yandex/rep:0.6.6
-FROM yandex/rep-tutorial:0.1.3
+FROM yandex/mlda:0.3
 
 #RUN /root/miniconda/envs/rep/bin/conda install seaborn scikit-learn -q --yes
 
